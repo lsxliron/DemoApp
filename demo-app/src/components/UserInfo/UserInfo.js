@@ -19,7 +19,6 @@ class UserInfo extends React.Component {
   }
 
   render() {
-    console.log(this.props)
     if (this.state.userInfo === null)
       return (<div>
         <h3>Loading</h3>
