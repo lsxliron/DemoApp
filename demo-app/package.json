@@ -5,7 +5,7 @@
   "author": "Liron Shimrony",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "materialize-css": "^1.0.0-rc.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
