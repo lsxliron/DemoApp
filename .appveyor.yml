@@ -10,7 +10,7 @@ build_script:
 
 test_script:
   - sh: cd /root/projects/demoapp/demo-app
-  - sh: npm test
+  - npm test
 artifacts:
   - path: demo-app/build
     name: DemoApp
