@@ -6,3 +6,4 @@ before_build:
 build_script:
   - sh: cd /root/projects/demoapp/demo-app
   - sh: npm install
+  - sh: npm run build
