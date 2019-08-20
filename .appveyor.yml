@@ -10,7 +10,7 @@ build_script:
 
 test_script:
   - sh: cd /root/projects/demoapp/demo-app
-  - sh: ./node_modules/.bin/jest --all --coverage
+  - sh: npm test
 artifacts:
   - path: demo-app/build
     name: DemoApp
