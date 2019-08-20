@@ -4,5 +4,5 @@ before_build:
   - sh: apt-get install nodejs -y
 
 build_script:
-  - sh: /root/projects/demoapp/demo-app
+  - sh: cd /root/projects/demoapp/demo-app
   - sh: npm install
