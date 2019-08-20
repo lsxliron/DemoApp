@@ -1,0 +1,10 @@
+version: 1.0.{build}
+
+before_build:
+  - sh: apt-get install curl -y
+  - sh: curl -sL https://deb.nodesource.com/setup_12.x |  bash -
+  - sh: apt-get install nodejs -y
+
+build_script:
+  - sh: /root/projects/demoapp/demo-app
+  - sh: npm install
