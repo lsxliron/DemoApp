@@ -9,5 +9,5 @@ build_script:
   - sh: npm run build
   
 artifacts:
-  - path: build
+  - path: /root/projects/demoapp/demo-app/build
     name: DemoApp
